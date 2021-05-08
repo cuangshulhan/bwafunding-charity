@@ -1,21 +1,16 @@
 <script>
-	import CharityList from '../components/CharityList.svelte';
-	import Header from '../components/Header.svelte';
-	import Footer from '../components/Footer.svelte';
-	import Promo from '../components/Promo.svelte';
-	import Welcome from '../components/Welcome.svelte';
-	import { charities } from '../data/charities.js';
+  import CharityList from "../components/CharityList.svelte";
+  import Header from "../components/Header.svelte";
+  import Footer from "../components/Footer.svelte";
+  import Promo from "../components/Promo.svelte";
+  import Welcome from "../components/Welcome.svelte";
+  import { charities } from "../data/charities.js";
 
-	let title = "Charity";
-
+  let title = "Charity";
 </script>
 
 <Header />
 <Welcome />
-<CharityList {charities}/>
+<CharityList {charities} />
 <Promo />
 <Footer />
-
-
-
-
